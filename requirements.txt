@@ -20,4 +20,5 @@ tqdm
 requests
 umap-learn
 node2vec
+xgboost
 ollama
