@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Data
+data/raw/**
+!data/raw/**/README_SOURCE.txt
+
+# Processed data
+data/processed/**
+
+# Exports
+exports/figures/**
+exports/gephi/**
+exports/cytoscape/**
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Model caches
+.cache/
+ollama_models/
+
+# Large archives
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.gz
+
+# Generated notebooks backups
+*.nbconvert.ipynb
+
+# Environment files
+.env
+
+# Ignore execution artifacts
+*.out
+*.err
